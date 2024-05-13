@@ -1,0 +1,12 @@
+CREATE DATABASE [ADO.NET_30.04_2]
+GO
+USE [ADO.NET_30.04_2]
+GO
+
+CREATE TABLE VegetablesAndFruits (
+    id INT PRIMARY KEY IDENTITY (1,1),
+    name TEXT NOT NULL,
+    type TEXT NOT NULL,
+    color TEXT NOT NULL,
+    calories INTEGER NOT NULL
+);
